@@ -11,6 +11,10 @@ header{
     text-align: center;
     }
 
+    #TituloPrincipal{
+        font-size: 35px;
+    }
+
 .espacio{
     width: 80%;
     margin: auto;

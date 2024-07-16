@@ -8,22 +8,26 @@
 </head>
 <body>
     <header>
-        <h1>Alquiler de Autos</h1>
+        <h1 id="TituloPrincipal">FAST CAR RENT</h1>
     </header>
-    <div class="espacio">
-        <section id="informacion">
-            <h2>Información General</h2>
-            <p>Bienvenido a nuestro servicio de alquiler de autos. Ofrecemos una amplia gama de vehículos para satisfacer tus necesidades de transporte.</p>
-        </section>
-        
-        <section id="autos-disponibles">
-            <h2>Autos Disponibles</h2>
+    
+    <main>
+        <div class="espacio">
+            <section id="informacion">
+                <h2>Información General</h2>
+                <p>Bienvenido a nuestro servicio de alquiler de autos. Ofrecemos una amplia gama de vehículos para satisfacer tus necesidades de transporte.</p>
+            </section>
             
+            <section id="autos-disponibles">
+                <h2>Autos Disponibles</h2>
+                
             <div class="autos">
+
+                <!-- Realizar algunas mejoras al bloque de imagenes -->
                 <div class="auto">
                     <img src="./assets/imagenes/Nissan-Sentra-Blanco.jpg" alt="Auto 1">
                     <h3>Nissan Sentra B18</h3>
-                    <p></p>
+                    <p><!-- Descripcion resumida del auto --></p>
                     <p>Precio por día: $60</p>
                 </div> 
 
@@ -75,29 +79,31 @@
                     <p></p>
                     <p>Precio por día: $80</p>
                 </div>
-            
+                
             </div>
-        </section>
-        
-        <section id="formulario-contacto">
-            <h2>Formulario de Contacto</h2>
-            <form action="#" method="POST">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="telefono">Teléfono:</label>
-                <input type="text" id="telefono" name="telefono">
-                
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
-                
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
-    </div>
+            </section>
+            
+            <section id="formulario-contacto">
+                <!-- Como guia para realizar el formulario y editar el javascript -->
+                <h2>Formulario de Contacto</h2>
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono">
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+    </main>
 
     <footer>
         
