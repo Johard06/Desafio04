@@ -11,6 +11,21 @@ header{
     text-align: center;
     }
 
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: #777777;
+        transition: color 0.3s ease;
+    }
+
     #TituloPrincipal{
         font-size: 35px;
     }
@@ -21,7 +36,13 @@ header{
     padding: 20px 0;
     }
 
-.autos{
+
+#autos-disponibles h2{
+    text-align: center;
+    padding: 10px;
+}
+
+    .autos{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -34,6 +55,7 @@ header{
     width: 70px;
     height: 50px;
     text-align: center;
+    margin-right: 100px;
     }
 
 img{
@@ -44,6 +66,13 @@ img{
 #formulario-contacto{
     margin-top: 200px;
 }
+
+#formulario-contacto h2{
+    text-align: center;
+    padding: 10px;
+}
+
+
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
