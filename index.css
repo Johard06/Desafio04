@@ -1,87 +1,85 @@
-body{
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    }
+}
 
-header{
+header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    }
+}
 
-    nav ul {
-        list-style: none;
-        padding: 0;
-    }
-    
-    a{
-        color: #fff;
-        text-decoration: none;
-    }
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-    a:hover{
-        color: #777777;
-        transition: color 0.3s ease;
-    }
+a {
+    color: #fff;
+    text-decoration: none;
+}
 
-    #TituloPrincipal{
-        font-size: 35px;
-    }
+a:hover {
+    color: #777777;
+    transition: color 0.3s ease;
+}
 
-.espacio{
+#TituloPrincipal {
+    font-size: 35px;
+}
+
+.espacio {
     width: 80%;
     margin: auto;
     padding: 20px 0;
-    }
-
-
-#autos-disponibles h2{
-    text-align: center;
-    padding: 10px;
 }
 
-    .autos{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+#autos-disponibles h2 {
+    text-align: center;
+    padding: 10px;
     justify-content: center;
-    }
+}
+
+.autos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
 .auto {
-    border: 1px solid #ccc;
     padding: 10px;
-    width: 70px;
-    height: 50px;
+    width: 100%;
+    height: auto;
     text-align: center;
-    margin-right: 100px;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
-img{
-    width: 70px;
-    height: 50px;
-    }
+img {
+    width: 50%;
+}
 
-#formulario-contacto{
+#formulario-contacto {
     margin-top: 200px;
 }
 
-#formulario-contacto h2{
+#formulario-contacto h2 {
     text-align: center;
     padding: 10px;
 }
 
-
-
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-form{
+form {
     background-color: #f2f2f2;
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
-    }
+}
 
 form input[type="text"], form input[type="email"], form textarea {
     width: 100%;
@@ -89,16 +87,27 @@ form input[type="text"], form input[type="email"], form textarea {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 3px;
-    }
+}
 
 form input[type="submit"] {
+    display: flex;
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    }
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
 
 form input[type="submit"]:hover {
     background-color: #555;
-        }
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
