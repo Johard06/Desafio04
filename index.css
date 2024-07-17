@@ -149,3 +149,33 @@ form input[type="submit"]:hover {
     justify-content: center;
     width: 100%;
 }
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    border-top: #555 10px solid;
+    justify-content: space-around;
+}
+
+.info{
+    list-style: none;
+    padding: 0%;
+    margin: 10px;
+}
+
+ul li{
+    margin: 15px;
+}
+
+.logo{
+    width: 35px;
+    height: 35px;
+}
+
+figure{
+    margin: 0%;
+}
+
+
