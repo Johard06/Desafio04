@@ -5,5 +5,5 @@ if (username === "admin" && password === "admin") {
     alert("Bienvenido, admin!");
 } else {
     alert("Acceso denegado. Redirigiendo a la página principal.");
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 }

@@ -1,4 +1,11 @@
-body {
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,13 +16,6 @@ h4{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 1px;
     width: 50%;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
 }
 
 nav ul {
@@ -56,7 +56,7 @@ a:hover {
     gap: 20px;
 }
 
-.auto {
+.auto{
     padding: 20px;
     width: 100%;
     height: auto;
@@ -107,9 +107,6 @@ button:hover span {
     color: transparent;
 }
 
-/* ////////////////////////////////////////////////////////////////////// */
-
-
 #formulario-contacto {
     margin-bottom: 100px;
 }
@@ -122,7 +119,7 @@ button:hover span {
 form {
     background-color: #f2f2f2;
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px;
     border-radius: 5px;
 }
 
@@ -155,6 +152,11 @@ form input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.inicio{
+    text-align: left;
+    margin: 20px;
 }
 
 footer{
