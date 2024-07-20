@@ -169,6 +169,19 @@ footer{
     padding-bottom: 5px;
 }
 
+#Barra{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.info_head{
+    list-style: none;
+    padding: 0%;
+    margin: 10px;
+    justify-content: space-around;
+}
+
 .info{
     list-style: none;
     padding: 0%;
