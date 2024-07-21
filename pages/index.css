@@ -1,8 +1,45 @@
 header{
-    background-color: #333;
+    background-color: #025373;
     color: #fff;
-    padding: 10px 0;
+    padding: 0%;
     text-align: center;
+}
+
+#alineado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Barra_titulo{
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+}
+
+#TituloPrincipal {
+    font-size: 50px;
+    font-family: paladins;
+
+}
+
+.logo_principal{
+    width: 150px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#Barra{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 80px;
+}
+
+.info_head{
+    list-style: none;
+    padding: 0%;
+    margin: 5px;
+    justify-content: space-around;
 }
 
 body{
@@ -33,9 +70,7 @@ a:hover {
     transition: color 0.3s ease;
 }
 
-#TituloPrincipal {
-    font-size: 35px;
-}
+
 
 .espacio {
     width: 80%;
@@ -160,26 +195,13 @@ form input[type="submit"]:hover {
 }
 
 footer{
-    background-color: #333;
+    background-color: #022840;
     color: #fff;
     padding: 10px;
     display: flex;
-    border-top: #555 10px solid;
+    border-top: #025373 10px solid;
     justify-content: space-around;
     padding-bottom: 5px;
-}
-
-#Barra{
-    display: flex;
-    flex-direction: row-reverse;
-    
-}
-
-.info_head{
-    list-style: none;
-    padding: 0%;
-    margin: 10px;
-    justify-content: space-around;
 }
 
 .info{
@@ -252,6 +274,11 @@ figure{
 
 .horarios {
     text-align: left;
+}
+
+@font-face{
+    font-family: "paladins";
+    src: url(../assets/font/paladins.ttf);
 }
 
 
